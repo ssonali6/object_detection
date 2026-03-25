@@ -1,8 +1,6 @@
 import streamlit as st
 import requests
 from PIL import Image, ImageDraw, ImageFont
-from dotenv import load_dotenv
-import os
 
 # Load environment variables
 HF_TOKEN = st.secrets["HF_TOKEN"]
